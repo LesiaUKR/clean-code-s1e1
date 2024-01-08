@@ -29,7 +29,7 @@
         <h2 class="task_section-title add_section-title">Add Item</h2>
         <div class="task_section-wrapper">
           <input
-            class="task_section-input input_new-task"
+            class="task_item-input input_new-task"
             id="new-task"
             type="text"
           />
@@ -45,7 +45,7 @@
             <input class="task_item-input" type="text" />
             <button class="task_btn task_btn-edit">Edit</button>
             <button class="task_btn task_btn-delete">
-              <img src="./remove.svg" />
+              <img src="./remove.svg" alt="Delete button" />
             </button>
           </li>
           <li class="task_item edit-mode">
@@ -63,10 +63,8 @@
         <h2 class="task_section-title">Completed</h2>
         <ul class="task_list" id="completed-tasks">
           <li class="task_item">
-            <input type="checkbox" checked />
-            <label class="task_item-label completed_label"
-              >See the Doctor</label
-            >
+            <input class="task_item-checkbox" type="checkbox" checked />
+            <label class="task_item-label">See the Doctor</label>
             <input type="text" class="task" />
             <button class="task_btn task_btn-edit">Edit</button>
             <button class="task_btn task_btn-delete">

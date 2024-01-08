@@ -50,12 +50,6 @@ button {
   margin: 0 auto 0;
 }
 
-.task_section-input {
-  width: 56%;
-  display: inline-block;
-  flex-grow: 1;
-}
-
 .task_section-wrapper {
   display: flex;
 }
@@ -85,7 +79,7 @@ button {
   text-transform: uppercase;
 }
 
-input[type="text"] {
+.task_item-input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -96,9 +90,12 @@ input[type="text"] {
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888;
+  width: 56%;
+  display: inline-block;
+  flex-grow: 1;
 }
 
-input[type="text"]:focus {
+.task_item-input:focus {
   color: #333;
 }
 
@@ -136,9 +133,11 @@ input[type="text"]:focus {
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
+  display: inline-block;
+  flex-grow: 1;
 }
 
-.task_item > input[type="text"] {
+.task_item > .task_item-input {
   width: 226px;
 }
 
