@@ -4,23 +4,26 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 ul {
   margin: 0;
   padding: 0px;
 }
+
 li {
   list-style: none;
-}
-.header {
-  width: 500px;
-  margin: 0 auto;
-  display: block;
-  text-align: right;
 }
 
 input,
 button {
   outline: none;
+}
+
+.header {
+  width: 500px;
+  margin: 0 auto;
+  display: block;
+  text-align: right;
 }
 
 .header_img {
@@ -150,7 +153,7 @@ input[type="text"]:focus {
 }
 
 /* Completed */
-.completed_label {
+#completed-tasks label {
   text-decoration: line-through;
   color: #888;
 }
