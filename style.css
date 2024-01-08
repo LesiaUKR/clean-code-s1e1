@@ -19,6 +19,10 @@ button {
   outline: none;
 }
 
+.visually-hidden {
+  display: none;
+}
+
 .header {
   width: 500px;
   margin: 0 auto;
@@ -38,10 +42,6 @@ button {
   .header {
     text-align: center;
   }
-}
-
-.visually-hidden {
-  display: none;
 }
 
 .main_wrapper {
