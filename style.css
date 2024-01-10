@@ -141,13 +141,13 @@ button {
   width: 226px;
 }
 
-.task_btn-delete img {
+.task_btn-delete .task_delete-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.task_btn-delete img:hover {
+.task_btn-delete .task_delete-img:hover {
   transform: rotateZ(0);
 }
 
@@ -158,15 +158,15 @@ button {
 }
 
 /* Edit Task */
-.task_item input[type="text"] {
+.task_item .task_item-input {
   display: none;
 }
 
-.edit-mode input[type="text"] {
+.edit-mode .task_item-input {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode label {
+.edit-mode .task_item-label {
   display: none;
 }
